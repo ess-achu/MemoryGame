@@ -53,7 +53,7 @@ function App() {
               emo.position === flippedData[0].position
             ) {
               emo.isSolved = true;
-              gameTrack +=1 
+              console.log(flippedData);
             }
             return emo;
           });
